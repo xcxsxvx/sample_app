@@ -4,9 +4,10 @@ gem 'rails', '3.2.9'
 
 gem 'bigdecimal'
 gem 'activerecord'
+gem 'minitest'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.5'
+  gem 'sqlite3', '1.3.6'
   gem 'rspec-rails', '2.11.0'
 end
 
